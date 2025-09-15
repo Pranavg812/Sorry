@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I’m really sorry 💖</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <audio id="bg-music" autoplay loop>
+  <source src="sounds/bg-music.mp3" type="audio/mpeg">
+  </audio>
+  <!-- Floating emojis container -->
+  <div id="emoji-container"></div>
+
+  <div class="container">
+    <h1>I messed up I know and I'm really sorry 💐</h1>
+    <p class="subtitle">
+      I realise your presence and importance a lot. I acted like an asshole and I should’ve communicated with you.  
+      Please forgive me meri jaan 💖
+    </p>
+
+    <div class="animals">
+      <img src="images/cat.png" id="cat" alt="cat" class="animal"/>
+      <img src="images/hamster.png" id="hamster" alt="hamster" class="animal"/>
+      <img src="images/panda.png" id="panda" alt="panda" class="animal"/>
+      <img src="images/bunny.png" id="bunny" alt="bunny" class="animal"/>
+    </div>
+
+    <div class="message-box">
+      <p id="apology-text"></p>
+    </div>
+
+    <div class="buttons">
+      <button id="forgive-btn" class="big-btn">I hope you can forgive me (click) 💕</button>
+      <button onclick="copyMessage()">Copy message 📋</button>
+      <button onclick="editMessage()">Edit text ✏️</button>
+    </div>
+
+    <p class="footer">
+      🌸 Oye, try clicking the little animals to hear a cute sound (they are me crying when I miss you) 🐾 <br>
+      🌷 Made with love, while missing you, while acknowledging your presence in my life, cute pics and my heart🥺💖
+    </p>
+  </div>
+
+  <!-- Hidden popup image -->
+  <div id="image-popup">
+    <button id="close-popup">❌</button>
+    <img src="images/us.jpg" alt="Us together"/>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
